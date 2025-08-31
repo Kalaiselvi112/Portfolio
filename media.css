@@ -56,7 +56,7 @@
         
     }
     .info{
-        margin-top:50%;
+        margin-top:60%;
         text-align: center;
     }
 
@@ -67,7 +67,7 @@
         font-size: 14px;
     }
     .box img{
-        top:-5%;
+        top:-15%;
         left:50%;
         width:100px;
         height:150px;
@@ -116,7 +116,7 @@
         
     }
     .info{
-        margin-top:50%;
+        margin-top:60%;
         text-align: center;
     }
 
@@ -142,10 +142,10 @@
 
 @media only screen and (max-width:320px){
     .info{
-        margin-top:65%;
+        margin-top:60%;
     }
     .box img{
-        top:-12%;
+        top:-15%;
     }
     .icons{
         position: relative;
