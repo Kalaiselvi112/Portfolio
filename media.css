@@ -1,4 +1,4 @@
-@media (max-width:768px){ 
+@media screen and (max-width:768px){ 
     .logo{
         width:12%;
     }
@@ -35,9 +35,131 @@
 }
 
 
-@media (max-width:425px){
-    .nav-bar{
-        display:none;
+@media screen and (max-width:426px){
+
+    .logo{
+        width:20%;
     }
-    
-} 
+    .nav-bar .bar{
+        gap:10%;
+        margin-right: 25%;
+    }
+    .nav-bar .bar li a{
+        font-size:15px;
+        
+    }
+    .nav-bar .btn{
+        display: none;
+    }
+    .info .btn{
+        margin-left: 30%;
+        
+    }
+    .info{
+        margin-top:50%;
+        text-align: center;
+    }
+
+    .info h1{
+        font-size:15px;
+    }
+    .info p{
+        font-size: 14px;
+    }
+    .box{
+        position: relative;
+        top:-55%;
+        left:50%;
+        
+    }
+    .box img{
+        width:70%;
+        height:40%;
+        position:relative;
+        animation: kalai1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes kalai1 {
+    0%{left:0;right:0; 
+        box-shadow: 5px 5px 10px #ff5733;}
+    25%{left:40px;right:0;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+    50%{left:0;right:40px;box-shadow: 5px 5px 10px #ff5733;}
+    75%{left:40px;right:40px;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+    100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
+    }
+    .icons{
+        margin-top:-85%;
+        margin-left:36%;
+        
+    }
+    .icons a{
+        font-size: 22px;
+    }
+
+
+
+}
+
+@media screen and (max-width:376px){
+
+    .logo{
+        width:20%;
+        margin-left:-5%;
+    }
+    .nav-bar .bar{
+        gap:15%;
+        margin-right: 20%;
+    }
+    .nav-bar .bar li a{
+        font-size:14px;
+        
+    }
+    .nav-bar .btn{
+        display: none;
+    }
+    .info .btn{
+        margin-left: 30%;
+        
+    }
+    .info{
+        margin-top:50%;
+        text-align: center;
+    }
+
+    .info h1{
+        font-size:15px;
+    }
+    .info p{
+        font-size: 12px;
+    }
+    .box img{
+        top:10%;
+        width:70%;
+        height:30%;
+        position:relative;
+        animation: kalai1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes kalai1 {
+    0%{left:0;right:0; 
+        box-shadow: 5px 5px 10px #ff5733;}
+    25%{left:40px;right:0;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+    50%{left:0;right:40px;box-shadow: 5px 5px 10px #ff5733;}
+    75%{left:40px;right:40px;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+    100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
+    }
+    .icons{
+        position: relative;
+        top:-20%;
+        margin-left:36%;
+        
+    }
+    .icons a{
+        font-size: 22px;
+    }
+
+}

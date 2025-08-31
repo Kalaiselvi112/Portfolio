@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+        background-image: url(./bg3.jpg);
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        color:white;
+        font-family:'Courier New', Courier, monospace;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 30px;
+        }
+        .skills span{
+            border-bottom:2px solid red;
+            border-radius: 2%;
+
+        }
+
+        .skills .front{
+            border:2px solid rgb(38, 34, 34);
+            box-shadow: -3px 10px 10px red;
+            display: inline-block;
+            padding:5px 50px;
+            font-size: 20px;
+            margin-left:25%;
+            margin-right:25%;
+            margin-top:4%;
+            border-radius: 10%;
+            
+        }
+        .skills .front:hover{
+            padding:6px 55px;
+        }
+        .skills .back:hover{
+            padding:6px 55px;
+            
+        }
+        .skills .data:hover{
+            padding:6px 55px;
+            
+        }
+        .skills .back{
+            border:2px solid rgb(38, 34, 34);
+            box-shadow: -3px 10px 10px red;
+            display:inline-block;
+            padding:5px 50px;
+            font-size: 20px;
+            margin-left:40%;
+            margin-top:2%;
+            border-radius: 10%;
+            
+        }
+        .skills .data{
+            border:2px solid rgb(38, 34, 34);
+            box-shadow: -3px 10px 10px red;
+            border-radius: 10%;
+            display: inline-block;
+            padding:5px 50px;
+            font-size: 20px;
+            margin-left:55%;
+            margin-top:2%;
+            
+        }
+        ul{
+            list-style:circle;
+            margin-top:10%;
+        }
+        li{
+            line-height: 30px;
+        }
+        .reverse{
+            display: flex;
+            justify-content:space-between;
+            margin-left:5%;
+            margin-right: 5%;
+        }
+        
+        .reverse .a1,.a2{
+            color:white;
+            text-decoration: none;
+            border: 2px solid rgb(38, 34, 34);
+            background-color: rgb(38, 34, 34);
+            padding:5px 5px;
+            
+        }
+        
+        @media screen and (max-width:768px) {
+            .skills .front, .skills .data, .skills .back {
+                font-size:15px;
+        }
+        .skills .front{
+            margin-left:10%;
+        }
+        .skills .data{
+            margin-left:65%;
+        }
+        h1,h2{
+            font-size: 20px;
+        }
+        .reverse{
+            margin-top:5%;
+        }
+
+
+    }
+       @media screen and (max-width:426px) {
+            .skills .front, .skills .data, .skills .back {
+                font-size:15px;
+        }
+        .skills .front{
+            margin-left:10%;
+            margin-bottom:5%;
+        }
+        .skills .data{
+            margin-left:10%;
+        }
+        .skills .back{
+            margin-left:50%;
+            margin-bottom:5%;
+        }
+        h1,h2{
+            font-size: 20px;
+        }
+        .reverse{
+            margin-top:10%;
+        }
+        .reverse a{
+            font-size: 12px;
+        }
+
+
+    }
+
+      @media screen and (max-width:376px) {
+            .skills .front, .skills .data, .skills .back {
+                font-size:13px;
+        }
+        .skills .front{
+            margin-left:25%;
+            margin-bottom:5%;
+        }
+        .skills .data{
+            margin-left:25%;
+        }
+        .skills .back{
+            margin-left:25%;
+            margin-bottom:5%;
+        }
+        h1,h2{
+            font-size: 20px;
+        }
+        .reverse{
+            margin-top:15%;
+        }
+        .reverse a{
+            font-size: 12px;
+        }
+
+        .skills h2 span{
+            border-bottom:2px solid black;
+            border-radius: 2%;
+
+        }
+
+
+    }
+
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="skills">
+            <h1>S<span>kill</span>s</h1>
+            <div class="front">
+                <h2>Fr<span>onte</span>nd</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="back">
+                <h2>B<span>acke</span>nd</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+            <div class="data">
+                <h2>D<span>ataba</span>se</h2>
+                <ul>
+                    <li>SQL</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="reverse"> 
+            <a href="index.html" class="a1">&lt;&lt; Preview</a>
+            <a href="project.html" class="a2"> Next >></a>
+        </div>
+    </main>
+</body>
+</html>

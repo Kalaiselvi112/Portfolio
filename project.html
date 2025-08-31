@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+        background-image: url(bg3.jpg);
+        background-size: cover;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        color:white;
+        font-family:'Courier New', Courier, monospace;
+        overflow: scroll;
+        }
+        .title{
+            text-align: center;
+            margin-top:3%;
+            animation: bounce 1s infinite alternate;
+            font-size:25px;
+            color:red;
+        }
+        @keyframes bounce {
+            from{transform: translateX(0);}
+            to{transform: translateX(-10px);}
+        }
+        .project1,.project2,.project3,.project4,.project5{
+            width:50%;
+            margin-left:25%;
+            margin-top:2%;
+            border:2px solid rgb(43, 42, 42);
+            box-shadow: 5px 5px 10px red;
+            padding:15px 15px;
+        }
+        .reverse{
+            display: flex;
+            justify-content:space-between;
+            margin-left:5%;
+            margin-right: 5%;
+        }
+        
+        .reverse .a1,.a2{
+            color:white;
+            text-decoration: none;
+            border: 2px solid rgb(38, 34, 34);
+            background-color: rgb(38, 34, 34);
+            padding:5px 5px;
+            
+        }
+
+        @media screen and (max-width:768px) {
+            h2{
+                font-size: 15px;
+                line-height: 40px;
+            }
+            .project1,.project2,.project3,.project4,.project5{
+                width:60%;
+                margin-left:20%;
+            }
+            .reverse{
+                margin-top:3%;
+                margin-bottom:3%;
+                
+            }
+        }
+
+        @media screen and (max-width:426px) {
+            h2{
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom:1%;
+            }
+            p{
+                line-height:20px;;
+            }
+            .project1,.project2,.project3,.project4,.project5{
+                width:80%;
+                margin-left:10%;
+                margin-top:5%;
+            }
+            .reverse{
+                margin-top:5%;
+                margin-bottom:3%;
+                
+                
+            }
+            .reverse .a1,.a2{
+                font-size: 15px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">Projects</h1>
+        <div class="project1">
+            <h2>Random Story Generator (Python Mini Project)</h2>
+            <p>Console-based Python app that generates random short stories using the Random module, lists, and functions, reusable code.</p>
+        </div>
+        <div class="project2">
+            <h2>Survery Form</h2>
+            <p>Responsive survey form with semantic structure and multiple input fields.</p>
+        </div>
+        <div class="project3">
+            <h2>Tribute Page</h2>
+            <p>Responsive webpage honoring Dr.A.P.J. Abdul Kalam with structured biography and images</p>
+        </div>
+        <div class="project4">
+            <h2>Technical Documentation Page</h2>
+            <p>Multi-section responsive documentation page with fixed navigation.</p>
+
+        </div>
+        <div class="project5">
+            <h2>Portfolio</h2>
+            <p>Multi-section responsive Portfolio built with HTML & CSS</p>
+        </div>
+        <div class="reverse"> 
+            <a href="Skills.html" class="a1">&lt;&lt; Preview</a>
+            <a href="contact.html" class="a2"> Next >></a>
+        </div>
+
+    </main>
+</body>
+</html>
