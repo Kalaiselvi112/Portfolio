@@ -1,4 +1,4 @@
-@media screen and (max-width:768px){ 
+@media only screen and (max-width:768px){ 
     .logo{
         width:12%;
     }
@@ -35,7 +35,7 @@
 }
 
 
-@media screen and (max-width:426px) {
+@media only screen and (max-width:480px) {
 
     .logo{
         width:20%;
@@ -82,12 +82,11 @@
     }
 
     @keyframes kalai1 {
-    0%{left:0;right:0; 
-        box-shadow: 5px 5px 10px #ff5733;}
-    25%{left:40px;right:0;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
-    50%{left:0;right:40px;box-shadow: 5px 5px 10px #ff5733;}
-    75%{left:40px;right:40px;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
-    100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
+        0%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
+        25%{left:40px;right:0;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+        50%{left:0;right:40px;box-shadow: 5px 5px 10px #ff5733;}
+        75%{left:40px;right:40px;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
+        100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
     }
     .icons{
         margin-top:-85%;
@@ -97,12 +96,10 @@
     .icons a{
         font-size: 22px;
     }
-
-
-
 }
 
-@media screen and (max-width:376px){
+
+@media only screen and (max-width:400px){
 
     .logo{
         width:20%;
@@ -154,7 +151,7 @@
     }
     .icons{
         position: relative;
-        top:-20%;
+        top:-13%;
         margin-left:36%;
         
     }
