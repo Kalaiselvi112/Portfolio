@@ -35,7 +35,7 @@
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:450px) {
 
     .logo{
         width:20%;
@@ -99,7 +99,7 @@
 }
 
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:380px){
 
     .logo{
         width:20%;
@@ -161,7 +161,7 @@
 
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:330px){
     .info{
         margin-top:65%;
     }
