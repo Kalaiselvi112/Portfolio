@@ -35,7 +35,7 @@
 }
 
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:440px) {
 
     .logo{
         width:20%;
@@ -52,11 +52,11 @@
         display: none;
     }
     .info .btn{
-        margin-left: 30%;
+        margin-left: 35%;
         
     }
     .info{
-        margin-top:55%;
+        margin-top:50%;
         text-align: center;
     }
 
@@ -66,16 +66,16 @@
     .info p{
         font-size: 14px;
     }
-    .box{
-        position: relative;
-        top:-70%;
+    /* .box{
+        top:20%;
         left:50%;
         
-    }
+    } */
     .box img{
+        top:-2%;
+        left:50%;
         width:60%;
         height:30%;
-        position:relative;
         animation: kalai1;
         animation-duration: 10s;
         animation-iteration-count: infinite;
@@ -89,8 +89,8 @@
         100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
     }
     .icons{
-        margin-top:-85%;
-        margin-left:36%;
+        margin-top:15%;
+        margin-left:41%;
         
     }
     .icons a{
@@ -99,7 +99,7 @@
 }
 
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width:380px){
 
     .logo{
         width:20%;
@@ -132,25 +132,9 @@
         font-size: 12px;
     }
     .box img{
-        top:10%;
-        width:70%;
-        height:30%;
-        position:relative;
-        animation: kalai1;
-        animation-duration: 10s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes kalai1 {
-    0%{left:0;right:0; 
-        box-shadow: 5px 5px 10px #ff5733;}
-    25%{left:40px;right:0;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
-    50%{left:0;right:40px;box-shadow: 5px 5px 10px #ff5733;}
-    75%{left:40px;right:40px;box-shadow: 5px 5px 10px rgb(85, 192, 241);}
-    100%{left:0;right:0;box-shadow: 5px 5px 10px #ff5733;}
+        top:-8%;
     }
     .icons{
-        position: relative;
         top:-10%;
         margin-left:36%;
         
@@ -166,10 +150,10 @@
         margin-top:65%;
     }
     .box img{
-        top:10%;
+        top:-5%;
     }
     .icons{
-        top:-20%;
+        top:-15%;
         
     }
 
