@@ -160,3 +160,17 @@
     }
 
 }
+
+@media only screen and (max-width:350px){
+    .info{
+        margin-top:65%;
+    }
+    .box img{
+        top:10%;
+    }
+    .icons{
+        top:-20%;
+        
+    }
+
+}
